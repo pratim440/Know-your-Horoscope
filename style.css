@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    color: ivory !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgba(0,212,255,0.7791491596638656) 100%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#heading {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 30px !important;
+}
+#input {
+    justify-content: center !important;
+    align-items: center !important;
+    width: 80%;
+    margin: 50px auto 20px;
+}
+#details {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#sunsign {
+    font-size: 4.5rem;
+    font-weight: bolder;
+    font-family: "Montserrat", cursive;
+}
+#inputGroupSelect04 {
+    background-color: #2b4f75;
+    border-style: none;
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+}
+#button {
+    background-color: #2b4f75;
+    color: black;
+    height: 60px;
+    border-style: none;
+    width:90px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+#button:hover {
+    background-color: #1b3858;
+}
+#daily,#week,#month,#year {
+    padding-top: 20px;
+    font-weight: bolder;
+    font-family: "Permanent Marker", cursive;
+    font-size: 3rem;
+    color: black !important;
+}
+.horoscopeDetails {
+    font-family: "Montserrat", cursive;
+}
+@media only screen and (max-width: 600px) {
+    #heading {
+        font-size: 3.5rem;
+    }
+}
